@@ -24,7 +24,8 @@ public class SuperaChallenge {
             third.thirdChallenge();
         }
         if (challenge == 4) {
-            System.out.println("Ex 4");
+            Fourth fourth = new Fourth();
+            fourth.fourthChallenge();
         }
     }
 
