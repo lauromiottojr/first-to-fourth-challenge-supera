@@ -84,8 +84,6 @@ public class Second {
             amount = amount - (countCoin / 100);
         }
 
-        System.out.println("novo valor do amount" + amount);
-
         System.out.println("NOTAS:");
         System.out.println(ballot100 + " nota(s) de R$100.00");
         System.out.println(ballot50 + " nota(s) de R$50.00");

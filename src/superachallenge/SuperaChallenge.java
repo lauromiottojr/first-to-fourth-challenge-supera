@@ -14,18 +14,17 @@ public class SuperaChallenge {
         if (challenge == 1) {
             First first = new First();
             first.firstChallenge();
-        }
-        if (challenge == 2) {
+        } else if (challenge == 2) {
             Second second = new Second();
             second.secondChallenge();
-        }
-        if (challenge == 3) {
+        } else if (challenge == 3) {
             Third third = new Third();
             third.thirdChallenge();
-        }
-        if (challenge == 4) {
+        } else if (challenge == 4) {
             Fourth fourth = new Fourth();
             fourth.fourthChallenge();
+        } else {
+            System.out.println("Número inválido!");
         }
     }
 
